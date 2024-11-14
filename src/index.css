@@ -5,8 +5,16 @@
   .nav__wrapper {
     @apply text-sm font-semibold hover:text-primary;
   }
-  .feature_btn {
-    @apply bg-accent text-white px-4 py-1 rounded-full;
+
+  .p__wrapper {
+    @apply font-raleway text-base font-normal text-textSecondary;
+  }
+  .h2__wrapper {
+    @apply font-montserrat text-[34px] font-bold text-secondary;
+  }
+
+  .h3__wrapper {
+    @apply font-montserrat text-[24px] font-extrabold text-secondary;
   }
   /*  */
 }

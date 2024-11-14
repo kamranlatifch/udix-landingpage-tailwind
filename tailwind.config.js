@@ -23,9 +23,10 @@ module.exports = {
     extend: {
       colors: {
         primary: '#381DDB',
-        secondary: '#22222203',
+        secondary: '#222222',
         textPrimary: '#0000000',
-        textSecondary: '#222222',
+        textSecondary: '#222222B2',
+
         textBase: '#FFFFFF',
       },
       borderColor: {

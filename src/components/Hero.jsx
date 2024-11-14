@@ -7,7 +7,7 @@ const Hero = () => {
         <h1 className='font-montserrat text-[3.5rem] font-bold text-center'>
           Get It Together And Manage Projects the Right Way.
         </h1>
-        <p className='font-raleway text-lg font-normal text-center w-[580px]'>
+        <p className='font-raleway text-lg font-normal text-textSecondary text-center w-[580px]'>
           udix is the world’s first smart workspace. We bring all your team’s
           content together while letting you use the tools you love.
         </p>
