@@ -16,5 +16,8 @@
   .h3__wrapper {
     @apply font-montserrat text-[24px] font-extrabold text-secondary;
   }
+  .h4__wrapper {
+    @apply font-montserrat text-[4rem] font-extrabold text-textBase;
+  }
   /*  */
 }

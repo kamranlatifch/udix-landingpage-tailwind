@@ -19,7 +19,7 @@ const Solutions = () => {
         </p>
       </div>
 
-      <div className='flex justify-between items-center mt-[60px] gap-[75px]'>
+      <div className='flex flex-wrap justify-center lg:justify-between items-center mt-[60px] gap-[75px]'>
         <div className='flex flex-col px-[45px] py-[29px] border border-primary gap-[40px] group hover:text-textPrimary hover:bg-primary'>
           <WebIcon />
           <div className='flex flex-col gap-[17px] max-w-[220px]'>

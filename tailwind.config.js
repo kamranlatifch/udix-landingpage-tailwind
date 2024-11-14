@@ -41,7 +41,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        'gradient-bg': "url('@assets/images/gradientBg.png')",
+        'signup-bg': "url('/src/assets/images/signupBg.png')",
         'custom-gradient':
           'linear-gradient(to right, rgba(0, 0, 0, 0.1) 10%, #6D8F97 60%, #6D8F97 100%)',
         'thunder-gradient':

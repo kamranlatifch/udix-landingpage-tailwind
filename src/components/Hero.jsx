@@ -11,7 +11,7 @@ const Hero = () => {
           udix is the world’s first smart workspace. We bring all your team’s
           content together while letting you use the tools you love.
         </p>
-        <div className='flex gap-[24px]'>
+        <div className='flex flex-wrap justify-center gap-[24px]'>
           <input
             type='email'
             placeholder='Email'

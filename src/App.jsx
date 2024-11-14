@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Solutions from './components/Solutions';
+import SignupNow from './components/SignupNow';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <Solutions />
+      <SignupNow />
     </>
   );
 }
