@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .nav__wrapper {
+    @apply text-sm font-semibold hover:text-primary;
+  }
+
+  .p__wrapper {
+    @apply font-raleway text-base font-normal text-textSecondary;
+  }
+  .h2__wrapper {
+    @apply font-montserrat text-[34px] font-bold text-secondary;
+  }
+
+  .h3__wrapper {
+    @apply font-montserrat text-[24px] font-extrabold text-secondary;
+  }
+  .h4__wrapper {
+    @apply font-montserrat text-[4rem] font-extrabold text-textBase;
+  }
+  /*  */
+}

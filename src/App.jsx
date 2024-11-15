@@ -1,13 +1,29 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+// import reactLogo from './assets/react.svg';
+// import viteLogo from '/vite.svg';
+// import Header from './components/Header';
+// import Hero from './components/Hero';
+// import Solutions from './components/Solutions';
+// import SignupNow from './components/SignupNow';
+// import OurValues from './components/OurValues';
+import {
+  Header,
+  Hero,
+  Solutions,
+  SignupNow,
+  OurValues,
+  Footer,
+} from '@components';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h2 className='bg-red-500 '> Udix Project</h2>
+      <Header />
+      <Hero />
+      <Solutions />
+      <SignupNow />
+      <OurValues />
+      <Footer />
     </>
   );
 }
