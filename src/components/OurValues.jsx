@@ -3,7 +3,7 @@ import ValuesImg from '../assets/images/ourValuesImg.png';
 import ArrowNext from '../assets/svgs/ArrowCircleNextSvg';
 const OurValues = () => {
   return (
-    <div className=' flex px-[180px] py-[130px] gap-16 justify-center items-center'>
+    <div className=' flex flex-col lg:flex-row px-[50px] py-[80px] lg:px-[180px] lg:py-[130px] gap-16 justify-center items-center'>
       <img src={ValuesImg} alt='our-values' />
       <div className='flex flex-col gap-[50px]'>
         <div className='flex flex-col gap-8'>

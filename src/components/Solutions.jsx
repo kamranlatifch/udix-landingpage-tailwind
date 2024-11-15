@@ -7,7 +7,7 @@ import MobileAppIcon from '../assets/svgs/mobileApp';
 const Solutions = () => {
   return (
     <div className='flex flex-col  justify-center items-center'>
-      <div className='flex flex-col px-[235px] justify-center items-center gap-[40px]'>
+      <div className='flex flex-col px-[50px] lg:px-[235px] justify-center items-center gap-[40px]'>
         <h2 className='h2__wrapper'>
           Solutions that will change your business forever
         </h2>

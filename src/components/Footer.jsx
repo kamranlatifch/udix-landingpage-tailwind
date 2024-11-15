@@ -8,7 +8,7 @@ import Skype from '../assets/svgs/SkypeIcon';
 
 const Footer = () => {
   return (
-    <div className='flex px-[100px] justify-between items-center py-[66px] bg-bgFooter'>
+    <div className='flex flex-col lg:flex-row px-[30px] lg:px-[100px] justify-between items-center py-[66px] bg-bgFooter'>
       <div className='flex flex-col max-w-[500px] gap-[30px]'>
         <Logo color='#381DDB' />
         <p className='p__wrapper'>
@@ -17,9 +17,9 @@ const Footer = () => {
           for our customers.
         </p>
       </div>
-      <div className='flex flex-col gap-[40px]'>
-        <div className='flex items-center gap-[40px]'>
-          <div className='flex items-center gap-[50px] font-montserrat'>
+      <div className='flex flex-col gap-[10px] lg:gap-[40px]'>
+        <div className='flex flex-col md:flex-row items-center gap-[10px] lg:gap-[40px]'>
+          <div className='flex flex-row items-center gap-[10px] md:gap-[50px] font-montserrat'>
             <p className='nav__wrapper'>HOME</p>
             <p className='nav__wrapper'>BLOG</p>
             <p className='nav__wrapper'>PRODUCT</p>
@@ -34,7 +34,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className='flex justify-end gap-[30px] items-center'>
+        <div className='flex justify-center lg:justify-end gap-[30px] items-center'>
           <Facebook />
           <YouTube />
           <Linkedin />
