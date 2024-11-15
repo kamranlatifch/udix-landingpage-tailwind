@@ -1,11 +1,12 @@
 import React from 'react';
 import ValuesImg from '../assets/images/ourValuesImg.png';
-import ArrowNext from '../assets/svgs/ArrowCircleNextSvg';
+import { ArrowCircleNextSvg } from '@assets/svgs';
+
 const OurValues = () => {
   return (
-    <div className=' flex flex-col lg:flex-row px-[50px] py-[80px] lg:px-[180px] lg:py-[130px] gap-16 justify-center items-center'>
+    <div className=' flex flex-col lg:flex-row px-[3.125rem] py-[5rem] lg:px-[11.25rem] lg:py-[8.125rem] gap-16 justify-center items-center'>
       <img src={ValuesImg} alt='our-values' />
-      <div className='flex flex-col gap-[50px]'>
+      <div className='flex flex-col gap-[3.125rem]'>
         <div className='flex flex-col gap-8'>
           <h2 className='h2__wrapper'>Creativity & Technology</h2>
           <p className='p__wrapper'>
@@ -22,21 +23,21 @@ const OurValues = () => {
           <p className='p__wrapper'>
             <ul className='list-none pl-4 space-y-2'>
               <li className='p__wrapper list-item relative'>
-                <span className='absolute left-[-16px]  text-primary text-[20px]'>
+                <span className='absolute left-[-1rem]  text-primary text-[1.25rem]'>
                   •
                 </span>
                 Some networks believe that by only offering a basic tracking
                 system
               </li>
               <li className='p__wrapper list-item relative'>
-                <span className='absolute left-[-16px]  text-primary text-[20px]'>
+                <span className='absolute left-[-1rem]  text-primary text-[1.25rem]'>
                   •
                 </span>
                 Some networks believe that by only offering a basic tracking
                 system
               </li>{' '}
               <li className='p__wrapper list-item relative'>
-                <span className='absolute left-[-16px]  text-primary text-[20px]'>
+                <span className='absolute left-[-1rem]  text-primary text-[1.25rem]'>
                   •
                 </span>
                 Some networks believe that by only offering a basic tracking
@@ -46,15 +47,15 @@ const OurValues = () => {
           </p>
         </div>
 
-        <div className='flex gap-[10px]'>
+        <div className='flex gap-[0.625rem]'>
           <h4 className='font-montserrat text-base font-extrabold text-primary'>
             Check our solutions
           </h4>
-          <ArrowNext />
+          <ArrowCircleNextSvg />
         </div>
       </div>
     </div>
   );
 };
 
-export default OurValues;
+export { OurValues };

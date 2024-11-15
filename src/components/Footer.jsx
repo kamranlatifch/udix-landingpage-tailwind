@@ -1,30 +1,33 @@
 import React from 'react';
-import Logo from '../assets/svgs/logo';
-import Facebook from '../assets/svgs/FacebookIcon';
-import YouTube from '../assets/svgs/YouTubeIcon';
-import Linkedin from '../assets/svgs/LinkedinIcon';
-import GooglePlus from '../assets/svgs/GooglePlusIcon';
-import Skype from '../assets/svgs/SkypeIcon';
+
+import {
+  FacebookIcon,
+  YouTubeIcon,
+  LinkedinIcon,
+  GooglePlusIcon,
+  SkypeIcon,
+  Logo,
+} from '@assets/svgs';
 
 const Footer = () => {
   return (
-    <div className='flex flex-col lg:flex-row px-[30px] lg:px-[100px] justify-between items-center py-[66px] bg-bgFooter'>
-      <div className='flex flex-col max-w-[500px] gap-[30px]'>
-        <Logo color='#381DDB' />
+    <div className='flex flex-col lg:flex-row px-[1.875rem] lg:px-[6.25rem] justify-between items-center py-[4.125rem] bg-bgFooter'>
+      <div className='flex flex-col max-w-[31.25rem] gap-[1.875rem]'>
+        <Logo className='text-[#381DDB]' />
         <p className='p__wrapper'>
           udix is a market-leading provider of digital marketing services, using
           proprietary tools and methodologies to generate high-value engagement
           for our customers.
         </p>
       </div>
-      <div className='flex flex-col gap-[10px] lg:gap-[40px]'>
-        <div className='flex flex-col md:flex-row items-center gap-[10px] lg:gap-[40px]'>
-          <div className='flex flex-row items-center gap-[10px] md:gap-[50px] font-montserrat'>
-            <p className='nav__wrapper'>HOME</p>
-            <p className='nav__wrapper'>BLOG</p>
-            <p className='nav__wrapper'>PRODUCT</p>
-            <p className='nav__wrapper'>CONTACT</p>
-          </div>
+      <div className='flex flex-col gap-[0.625rem] lg:gap-[2.5rem]'>
+        <div className='flex flex-col md:flex-row items-center gap-[0.625rem] lg:gap-[2.5rem]'>
+          <nav className='flex flex-row items-center gap-[0.625rem] md:gap-[3.125rem] font-montserrat'>
+            <a className='nav__wrapper'>HOME</a>
+            <a className='nav__wrapper'>BLOG</a>
+            <a className='nav__wrapper'>PRODUCT</a>
+            <a className='nav__wrapper'>CONTACT</a>
+          </nav>
           <div className='flex justify-between font-montserrat'>
             <button className='text-primary text-sm font-semibold px-4 py-2'>
               SIGN IN
@@ -34,16 +37,16 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className='flex justify-center lg:justify-end gap-[30px] items-center'>
-          <Facebook />
-          <YouTube />
-          <Linkedin />
-          <GooglePlus />
-          <Skype />
+        <div className='flex justify-center lg:justify-end gap-[1.875rem] items-center'>
+          <FacebookIcon />
+          <YouTubeIcon />
+          <LinkedinIcon />
+          <GooglePlusIcon />
+          <SkypeIcon />
         </div>
       </div>
     </div>
   );
 };
 
-export default Footer;
+export { Footer };

@@ -19,4 +19,4 @@ const ArrowNext = () => {
   );
 };
 
-export default ArrowNext;
+export { ArrowNext };

@@ -25,4 +25,4 @@ const ArrowCircleNextSvg = () => {
   );
 };
 
-export default ArrowCircleNextSvg;
+export { ArrowCircleNextSvg };

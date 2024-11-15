@@ -1,6 +1,6 @@
 import React from 'react';
 
-const mobileApp = () => {
+const MobileApp = () => {
   return (
     <svg
       width='70'
@@ -74,4 +74,4 @@ const mobileApp = () => {
   );
 };
 
-export default mobileApp;
+export { MobileApp };

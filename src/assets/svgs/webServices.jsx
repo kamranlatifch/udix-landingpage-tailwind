@@ -1,6 +1,6 @@
 import React from 'react';
 
-const webServices = () => {
+const WebServices = () => {
   return (
     <svg
       width='70'
@@ -24,4 +24,4 @@ const webServices = () => {
   );
 };
 
-export default webServices;
+export { WebServices };

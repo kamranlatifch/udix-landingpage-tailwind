@@ -1,6 +1,6 @@
 import React from 'react';
 
-const crmSvg = () => {
+const CrmSvg = () => {
   return (
     <svg
       width='70'
@@ -26,4 +26,4 @@ const crmSvg = () => {
   );
 };
 
-export default crmSvg;
+export { CrmSvg };

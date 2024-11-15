@@ -17,4 +17,4 @@ const SkypeIcon = () => {
   );
 };
 
-export default SkypeIcon;
+export { SkypeIcon };

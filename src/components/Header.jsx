@@ -1,19 +1,19 @@
 import React from 'react';
-import Logo from '../assets/svgs/logo';
+import { Logo } from '@assets/svgs';
 
 const Header = () => {
   return (
-    <div className='container hidden md:flex py-[50px] justify-between items-center'>
-      <div className='flex items-center gap-[120px]'>
+    <div className='container hidden md:flex py-[3.125rem] justify-between items-center'>
+      <div className='flex items-center gap-[7.5rem]'>
         <div className='svg'>
           <Logo />
         </div>
-        <div className='flex items-center gap-[50px] font-montserrat'>
-          <p className='nav__wrapper'>HOME</p>
-          <p className='nav__wrapper'>BLOG</p>
-          <p className='nav__wrapper'>PRODUCT</p>
-          <p className='nav__wrapper'>CONTACT</p>
-        </div>
+        <nav className='flex items-center gap-[3.125rem] font-montserrat'>
+          <a className='nav__wrapper'>HOME</a>
+          <a className='nav__wrapper'>BLOG</a>
+          <a className='nav__wrapper'>PRODUCT</a>
+          <a className='nav__wrapper'>CONTACT</a>
+        </nav>
       </div>
       <div className='flex justify-between font-montserrat'>
         <button className='text-primary text-sm font-semibold px-4 py-2'>
@@ -27,4 +27,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export { Header };

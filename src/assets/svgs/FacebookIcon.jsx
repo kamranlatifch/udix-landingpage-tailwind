@@ -17,4 +17,4 @@ const FacebookIcon = () => {
   );
 };
 
-export default FacebookIcon;
+export { FacebookIcon };

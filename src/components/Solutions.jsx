@@ -1,13 +1,10 @@
 import React from 'react';
-import ArrowNext from '../assets/svgs/ArrowNext';
-import WebIcon from '../assets/svgs/webServices';
-import CRMIcon from '../assets/svgs/crmSvg';
-import MobileAppIcon from '../assets/svgs/mobileApp';
+import { ArrowNext, CrmSvg, MobileApp, WebServices } from '@assets/svgs';
 
 const Solutions = () => {
   return (
     <div className='flex flex-col  justify-center items-center'>
-      <div className='flex flex-col px-[50px] lg:px-[235px] justify-center items-center gap-[40px]'>
+      <div className='flex flex-col px-[3.125rem] lg:px-[14.6875rem] justify-center items-center gap-[2.5rem]'>
         <h2 className='h2__wrapper'>
           Solutions that will change your business forever
         </h2>
@@ -19,10 +16,10 @@ const Solutions = () => {
         </p>
       </div>
 
-      <div className='flex flex-wrap justify-center lg:justify-between items-center mt-[60px] gap-[75px]'>
-        <div className='flex flex-col px-[45px] py-[29px] border border-primary gap-[40px] group hover:text-textPrimary hover:bg-primary'>
-          <WebIcon />
-          <div className='flex flex-col gap-[17px] max-w-[220px]'>
+      <div className='flex flex-wrap justify-center lg:justify-between items-center mt-[3.75rem] gap-[4.6875rem]'>
+        <div className='flex flex-col px-[2.8125rem] py-[1.8125rem] border border-primary gap-[2.5rem] group hover:text-textPrimary hover:bg-primary'>
+          <WebServices />
+          <div className='flex flex-col gap-[1.0625rem] max-w-[13.75rem]'>
             <h3 className='h3__wrapper text-secondary group-hover:text-textBase'>
               Web Services
             </h3>
@@ -33,9 +30,9 @@ const Solutions = () => {
           <ArrowNext />
         </div>
 
-        <div className='flex flex-col px-[45px] py-[29px] border border-primary gap-[40px] group hover:text-textPrimary hover:bg-primary'>
-          <CRMIcon />
-          <div className='flex flex-col gap-[17px] max-w-[220px]'>
+        <div className='flex flex-col px-[2.8125rem] py-[1.8125rem] border border-primary gap-[2.5rem] group hover:text-textPrimary hover:bg-primary'>
+          <CrmSvg />
+          <div className='flex flex-col gap-[1.0625rem] max-w-[13.75rem]'>
             <h3 className='h3__wrapper text-secondary group-hover:text-textBase'>
               CRM Product
             </h3>
@@ -45,9 +42,9 @@ const Solutions = () => {
           </div>
           <ArrowNext />
         </div>
-        <div className='flex flex-col px-[45px] py-[29px] border border-primary gap-[40px] group hover:text-textPrimary hover:bg-primary'>
-          <MobileAppIcon />
-          <div className='flex flex-col gap-[17px] max-w-[220px]'>
+        <div className='flex flex-col px-[2.8125rem] py-[1.8125rem] border border-primary gap-[2.5rem] group hover:text-textPrimary hover:bg-primary'>
+          <MobileApp />
+          <div className='flex flex-col gap-[1.0625rem] max-w-[13.75rem]'>
             <h3 className='h3__wrapper text-secondary group-hover:text-textBase'>
               Mobile App
             </h3>
@@ -62,4 +59,4 @@ const Solutions = () => {
   );
 };
 
-export default Solutions;
+export { Solutions };

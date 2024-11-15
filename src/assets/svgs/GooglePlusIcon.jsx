@@ -19,4 +19,4 @@ const GooglePlusIcon = () => {
   );
 };
 
-export default GooglePlusIcon;
+export { GooglePlusIcon };

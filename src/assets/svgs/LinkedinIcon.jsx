@@ -17,4 +17,4 @@ const LinkedinIcon = () => {
   );
 };
 
-export default LinkedinIcon;
+export { LinkedinIcon };

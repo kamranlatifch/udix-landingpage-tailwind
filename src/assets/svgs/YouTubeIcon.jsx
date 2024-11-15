@@ -19,4 +19,4 @@ const YouTubeIcon = () => {
   );
 };
 
-export default YouTubeIcon;
+export { YouTubeIcon };
