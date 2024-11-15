@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Solutions from './components/Solutions';
 import SignupNow from './components/SignupNow';
 import OurValues from './components/OurValues';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       <Solutions />
       <SignupNow />
       <OurValues />
+      <Footer />
     </>
   );
 }

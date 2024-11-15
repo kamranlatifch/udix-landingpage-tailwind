@@ -26,6 +26,7 @@ module.exports = {
         secondary: '#222222',
         textPrimary: '#0000000',
         textSecondary: '#222222B2',
+        bgFooter: '#22222208',
 
         textBase: '#FFFFFF',
       },
