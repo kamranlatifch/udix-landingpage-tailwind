@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Solutions from './components/Solutions';
 import SignupNow from './components/SignupNow';
+import OurValues from './components/OurValues';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Solutions />
       <SignupNow />
+      <OurValues />
     </>
   );
 }
